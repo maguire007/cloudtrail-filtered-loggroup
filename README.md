@@ -3,7 +3,7 @@
 Eventbridge rule and lambda trigger to filter cloudtrail logs and making them searchable with cloudwatch insights.
 
 ###
-Supports filtering out the sourceip, and specific apis from the logs.
+Supports filtering out the sourceip, categories, and specific apis from the logs.
 
 
 # Cloudwatch insights query
