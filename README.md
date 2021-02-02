@@ -8,7 +8,7 @@
 Event bridge rule pattern example
 
 
-'''
+```
 {
   "source": [
     "aws.cloudtrail",
@@ -30,16 +30,16 @@ Event bridge rule pattern example
   }
 }
 
-'''
+```
 
 ## CloudwatchInsights query
 
 
-'''
+```
 fields @timestamp,detail.eventName,source,detail.eventType,detail.userIdentity.principalId, detail.sourceIPAddress
 |filter @message like /version/
 | sort @timestamp desc
 | limit 20
 
 
-'''
+```
