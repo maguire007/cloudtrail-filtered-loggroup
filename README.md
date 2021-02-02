@@ -1,4 +1,9 @@
-# cloudtrail-filtered-loggroup
+# cloudtrail filtered logs to log group
+
+Eventbridge rule and lambda trigger to filter cloudtrail logs and making them searchable with cloudwatch insights.
+
+###
+Supports filtering out the sourceip, and specific apis from the logs.
 
 
 # Cloudwatch insights query
